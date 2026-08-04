@@ -1,26 +1,27 @@
-# HARZ AI — Our Own Model (v2)
+# HARZ AI — Our Own Model (v3)
 
 Fine-tuned SmolLM2-135M on HARZ Digital Services data.
 
-## Training Data v2: 170 Examples
-- Identity (10) — who HARZ AI is, who created it
+## Training Data v3: 270 Examples
+- Identity (10) — who HARZ AI is
 - Products (15) — all 12 books, ebooks, games, bundles
 - Payments (10) — UBA, Paystack, GDEG, USDT, Gumroad, Paddle
-- Stores (5) — all store links, which to use
-- Support (10) — orders, refunds, downloads, contact
-- Marketing (10) — ad copy in English, Hausa, Pidgin
+- Stores (5) — all store links
+- Support (10) — orders, refunds, downloads
+- Marketing (15) — ad copy, email, Facebook, WhatsApp, Telegram templates
 - Platforms (10) — all 63+ ecosystem platforms
 - AI Agents (5) — 7 agent descriptions
-- Business Advice (15) — entrepreneurship, pricing, marketing
-- Health (10) — wellness, nutrition, exercise, sleep
+- Nigerian Business (20) — Instagram, Facebook, Twitter, WhatsApp, domains, taxes
+- Business Advice (15) — entrepreneurship, pricing, funnels, trust
+- Health (15) — malaria, immunity, fever, diabetes, hypertension, burns, sleep
 - Security (5) — passwords, 2FA, phishing, WhatsApp security
-- Education (10) — learning programming, Excel, study tips
+- Education (10) — coding, jobs, CV, interviews, study skills
 - General Knowledge (15) — crypto, blockchain, AI, economy
 - Finance (10) — budgeting, cash flow, ROI, taxes, loans
-- Greetings (10) — English, Hausa, Pidgin
-- Code/Tech (5) — Python, HTML, websites, databases
+- Code/Tech (15) — Python, JavaScript, Git, APIs, hosting, security
 - Real Estate (5) — land, building costs, investment
-- Hausa Conversations (10) — full Hausa dialogues
+- Hausa Conversations (15) — full Hausa dialogues
+- Conversational (12) — greetings, thank you, goodbye, small talk
 
 ## How to Train
 1. Open harz-finetune-colab.ipynb in Google Colab (free GPU)
