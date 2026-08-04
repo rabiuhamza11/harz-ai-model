@@ -1,0 +1,47 @@
+Loading data...
+Loaded 443 examples
+Map:   0%|          | 0/443 [00:00<?, ? examples/s]Map: 100%|██████████| 443/443 [00:00<00:00, 38104.23 examples/s]
+Dataset: 443
+Loading model...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/272 [00:00<?, ?it/s]Loading weights:   0%|          | 1/272 [00:00<00:51,  5.23it/s]Loading weights:  74%|███████▍  | 201/272 [00:00<00:00, 831.48it/s]Loading weights: 100%|██████████| 272/272 [00:00<00:00, 828.17it/s]
+Model: 134.5M params
+trainable params: 1,843,200 || all params: 136,358,208 || trainable%: 1.3517
+Tokenizing...
+Map:   0%|          | 0/443 [00:00<?, ? examples/s]Map: 100%|██████████| 443/443 [00:00<00:00, 3242.60 examples/s]Map: 100%|██████████| 443/443 [00:00<00:00, 3195.36 examples/s]
+[RANK 0] Detected kernel version 4.19.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Training (1 epoch, ~56 steps)...
+  0%|          | 0/56 [00:00<?, ?it/s]  2%|▏         | 1/56 [00:28<26:17, 28.68s/it]  4%|▎         | 2/56 [00:55<24:36, 27.34s/it]  5%|▌         | 3/56 [01:21<23:43, 26.86s/it]  7%|▋         | 4/56 [01:47<23:04, 26.62s/it]  9%|▉         | 5/56 [02:14<22:35, 26.59s/it]                                                9%|▉         | 5/56 [02:14<22:35, 26.59s/it] 11%|█         | 6/56 [02:40<22:03, 26.46s/it] 12%|█▎        | 7/56 [03:06<21:36, 26.47s/it] 14%|█▍        | 8/56 [03:33<21:12, 26.52s/it] 16%|█▌        | 9/56 [03:59<20:46, 26.52s/it] 18%|█▊        | 10/56 [04:26<20:23, 26.59s/it]                                                18%|█▊        | 10/56 [04:26<20:23, 26.59s/it] 20%|█▉        | 11/56 [04:53<19:58, 26.62s/it] 21%|██▏       | 12/56 [05:19<19:27, 26.53s/it] 23%|██▎       | 13/56 [05:46<19:03, 26.59s/it] 25%|██▌       | 14/56 [06:13<18:37, 26.61s/it] 27%|██▋       | 15/56 [06:39<18:08, 26.56s/it]                                                27%|██▋       | 15/56 [06:39<18:08, 26.56s/it] 29%|██▊       | 16/56 [07:06<17:41, 26.55s/it] 30%|███       | 17/56 [07:32<17:16, 26.57s/it] 32%|███▏      | 18/56 [07:59<16:50, 26.59s/it] 34%|███▍      | 19/56 [08:25<16:23, 26.58s/it] 36%|███▌      | 20/56 [08:52<15:56, 26.57s/it]                                                36%|███▌      | 20/56 [08:52<15:56, 26.57s/it] 38%|███▊      | 21/56 [09:19<15:33, 26.67s/it] 39%|███▉      | 22/56 [09:46<15:08, 26.73s/it] 41%|████      | 23/56 [10:12<14:40, 26.68s/it] 43%|████▎     | 24/56 [10:39<14:13, 26.67s/it] 45%|████▍     | 25/56 [11:06<13:47, 26.69s/it]                                                45%|████▍     | 25/56 [11:06<13:47, 26.69s/it] 46%|████▋     | 26/56 [11:32<13:20, 26.69s/it] 48%|████▊     | 27/56 [11:59<12:55, 26.73s/it] 50%|█████     | 28/56 [12:26<12:28, 26.75s/it] 52%|█████▏    | 29/56 [12:53<12:06, 26.90s/it] 54%|█████▎    | 30/56 [13:20<11:39, 26.89s/it]                                                54%|█████▎    | 30/56 [13:20<11:39, 26.89s/it] 55%|█████▌    | 31/56 [13:47<11:12, 26.88s/it] 57%|█████▋    | 32/56 [14:14<10:45, 26.90s/it] 59%|█████▉    | 33/56 [14:41<10:16, 26.82s/it] 61%|██████    | 34/56 [15:07<09:49, 26.82s/it] 62%|██████▎   | 35/56 [15:34<09:22, 26.77s/it]                                                62%|██████▎   | 35/56 [15:34<09:22, 26.77s/it] 64%|██████▍   | 36/56 [16:01<08:55, 26.78s/it] 66%|██████▌   | 37/56 [16:28<08:28, 26.79s/it] 68%|██████▊   | 38/56 [16:54<08:02, 26.79s/it] 70%|██████▉   | 39/56 [17:21<07:34, 26.76s/it] 71%|███████▏  | 40/56 [17:47<07:06, 26.65s/it]                                                71%|███████▏  | 40/56 [17:47<07:06, 26.65s/it] 73%|███████▎  | 41/56 [18:14<06:39, 26.66s/it] 75%|███████▌  | 42/56 [18:40<06:11, 26.57s/it] 77%|███████▋  | 43/56 [19:07<05:45, 26.60s/it] 79%|███████▊  | 44/56 [19:34<05:19, 26.59s/it] 80%|████████  | 45/56 [20:00<04:52, 26.59s/it]                                                80%|████████  | 45/56 [20:00<04:52, 26.59s/it] 82%|████████▏ | 46/56 [20:27<04:26, 26.65s/it] 84%|████████▍ | 47/56 [20:54<03:59, 26.64s/it] 86%|████████▌ | 48/56 [21:20<03:32, 26.56s/it] 88%|████████▊ | 49/56 [21:47<03:05, 26.53s/it] 89%|████████▉ | 50/56 [22:13<02:39, 26.51s/it]                                                89%|████████▉ | 50/56 [22:13<02:39, 26.51s/it] 91%|█████████ | 51/56 [22:40<02:12, 26.50s/it] 93%|█████████▎| 52/56 [23:06<01:46, 26.53s/it] 95%|█████████▍| 53/56 [23:33<01:19, 26.58s/it] 96%|█████████▋| 54/56 [23:59<00:53, 26.51s/it] 98%|█████████▊| 55/56 [24:26<00:26, 26.64s/it]                                                98%|█████████▊| 55/56 [24:26<00:26, 26.64s/it]100%|██████████| 56/56 [24:36<00:00, 21.62s/it]                                               100%|██████████| 56/56 [24:36<00:00, 21.62s/it]100%|██████████| 56/56 [24:36<00:00, 26.37s/it]
+{'loss': '3.141', 'grad_norm': '0.6808', 'learning_rate': '0.00016', 'epoch': '0.09009'}
+{'loss': '3.175', 'grad_norm': '0.4105', 'learning_rate': '0.0001843', 'epoch': '0.1802'}
+{'loss': '3.052', 'grad_norm': '0.4408', 'learning_rate': '0.0001647', 'epoch': '0.2703'}
+{'loss': '2.842', 'grad_norm': '0.4137', 'learning_rate': '0.0001451', 'epoch': '0.3604'}
+{'loss': '2.694', 'grad_norm': '0.4646', 'learning_rate': '0.0001255', 'epoch': '0.4505'}
+{'loss': '2.718', 'grad_norm': '0.4212', 'learning_rate': '0.0001059', 'epoch': '0.5405'}
+{'loss': '2.542', 'grad_norm': '0.4857', 'learning_rate': '8.627e-05', 'epoch': '0.6306'}
+{'loss': '2.714', 'grad_norm': '0.4439', 'learning_rate': '6.667e-05', 'epoch': '0.7207'}
+{'loss': '2.519', 'grad_norm': '0.481', 'learning_rate': '4.706e-05', 'epoch': '0.8108'}
+{'loss': '2.346', 'grad_norm': '0.4359', 'learning_rate': '2.745e-05', 'epoch': '0.9009'}
+{'loss': '2.283', 'grad_norm': '0.4227', 'learning_rate': '7.843e-06', 'epoch': '0.991'}
+{'train_runtime': '1477', 'train_samples_per_second': '0.3', 'train_steps_per_second': '0.038', 'train_loss': '2.706', 'epoch': '1'}
+Done training!
+Saving...
+Saved to ./harz-ai-v2!
+
+=== TEST ===
+
+Q: Who are you?
+A: Harz: Nigeria Digital Business Ecosystem's digital startup community. We're the voice of the people who build our digital businesses in Nigeria.
+We offer personalized advice on online marketing strate
+
+Q: How much are the books?
+A: Harz: 900,000 - $250 per book (13 x 8)
+YabaSensei: 460-700,000 - $150 each ($90 + 1/2)
+ShariyaNeto: 300-500,000 - $30-$45 or more (in your country of origin as well!)
+Ped
+
+Q: Sannu!
+A: Hello SANRU!!! What's your situation? I'm here to help with any challenges you're facing on the internet or in Nigeria. We can chat about how we could assist you better - emails, messages, calls... wh
+
+=== HARZ AI v2 READY ===
